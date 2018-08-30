@@ -1,3 +1,7 @@
+# An object based on below "Login" class constructor helps you create a session with particular openBMC instance 
+# Below members of Login class help you login to above created session, or get sensor data or power on / power off the host controlled by this specific OpenBMC etc.,
+
+
 import requests
 import json
 import urllib3
